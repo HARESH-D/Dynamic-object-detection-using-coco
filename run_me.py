@@ -4,7 +4,7 @@ from Detector import *
 modelURL = "http://download.tensorflow.org/models/object_detection/tf2/20200711/ssd_mobilenet_v2_320x320_coco17_tpu-8.tar.gz"
 # imagePath = r"road.jpeg"
 classFiles = "coco.names"
-videopath = 0
+videopath = 0  #using the video path instead to process the video
 detector = Detector()
 threshold = 0.5
 detector.readclasses(classFiles)
